@@ -1,3 +1,11 @@
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"1.0.4">>},0},
+[{<<"bullet">>,
+  {git,"git://github.com/ninenines/bullet.git",
+       {ref,"a56f819f21dbafdb6ffa41d60a22fb42f4645cd2"}},
+  0},
+ {<<"cowboy">>,{pkg,<<"cowboy">>,<<"1.0.4">>},0},
  {<<"cowlib">>,{pkg,<<"cowlib">>,<<"1.0.2">>},1},
+ {<<"ibrowse">>,
+  {git,"git://github.com/cmullaparthi/ibrowse.git",
+       {ref,"a1be5369c94920e3fbb8729ac81125524acb56a6"}},
+  0},
  {<<"ranch">>,{pkg,<<"ranch">>,<<"1.2.0">>},1}].
